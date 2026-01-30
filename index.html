@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Built Once | Ifeanyi Ezurike — Web Design & Strategy</title>
+    <meta name="description" content="Built right the first time. Web design, development, and strategy consulting by Ifeanyi Ezurike.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">Built<span class="logo-accent">Once</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-menu-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#contact">Let's Talk</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-grid"></div>
+            <div class="hero-glow"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-up">
+                <span class="badge-dot"></span>
+                Available for new projects
+            </div>
+            <h1 class="hero-title animate-fade-up delay-1">
+                <span class="title-line">Built right</span>
+                <span class="title-line title-accent">the first time.</span>
+            </h1>
+            <p class="hero-subtitle animate-fade-up delay-2">
+                I'm <strong>Ifeanyi Ezurike</strong> — I design and build websites that work. 
+                No endless revisions. No duct-tape fixes. Just solid foundations that grow with your business.
+            </p>
+            <div class="hero-cta animate-fade-up delay-3">
+                <a href="#work" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary">Start a Project</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag animate-on-scroll">What I Do</span>
+                <h2 class="section-title animate-on-scroll">Services that deliver <span class="text-accent">results</span></h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M3 9h18"/>
+                            <path d="M9 21V9"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Web Design</h3>
+                    <p class="service-desc">Custom websites that look exceptional and convert visitors into customers. No templates. No compromises.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M16 18l6-6-6-6"/>
+                            <path d="M8 6l-6 6 6 6"/>
+                            <path d="M14.5 4l-5 16"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Development</h3>
+                    <p class="service-desc">Clean, fast, maintainable code. Sites that load quickly, rank well, and don't break when you need them most.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Strategy Consulting</h3>
+                    <p class="service-desc">Expert guidance on digital decisions. From vendor selection to project oversight — I protect your investment.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Marketing & SEO</h3>
+                    <p class="service-desc">Get found online. Strategic SEO and marketing that drives qualified traffic and measurable growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work" id="work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag animate-on-scroll">Selected Work</span>
+                <h2 class="section-title animate-on-scroll">Projects that <span class="text-accent">perform</span></h2>
+            </div>
+            <div class="work-grid">
+                <!-- Project 1 -->
+                <a href="https://vitaltouchcares.com" target="_blank" rel="noopener" class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span class="project-initial">V</span>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-project">
+                                View Live Site
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-type">Web Design</span>
+                        <h3 class="project-title">VitalTouch Home Care</h3>
+                        <p class="project-desc">Fully redesigned website to be more modern and attractive — transforming their digital presence.</p>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="http://www.kellyhomehealth.com/" target="_blank" rel="noopener" class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-placeholder placeholder-alt">
+                            <span class="project-initial">K</span>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-project">
+                                View Live Site
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-type">Strategy</span>
+                        <h3 class="project-title">Kelly Home Health Care</h3>
+                        <p class="project-desc">Guided vendor selection and served as liaison to ensure all requirements were delivered correctly.</p>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="https://www.nfbpa-chicago.org/" target="_blank" rel="noopener" class="project-card project-card-wide animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-placeholder placeholder-dark">
+                            <span class="project-initial">N</span>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-project">
+                                View Live Site
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-type">Web Design</span>
+                        <h3 class="project-title">NFBPA Chicago</h3>
+                        <p class="project-desc">Complete website revamp for the National Forum for Black Public Administrators — Chicago Chapter.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag animate-on-scroll">About</span>
+                    <h2 class="about-title animate-on-scroll">I build digital foundations that <span class="text-accent">last</span></h2>
+                    <div class="about-text animate-on-scroll">
+                        <p>Most businesses have been burned by web projects that promised the world and delivered headaches. Missed deadlines. Broken features. Sites that need constant fixing.</p>
+                        <p>I do things differently. When you work with me, you get a strategic partner who understands that your website isn't just pixels on a screen — it's infrastructure for your business.</p>
+                        <p>My approach is simple: understand the problem deeply, build the right solution, and make it bulletproof. No shortcuts. No "we'll fix it later." Just work you can rely on.</p>
+                    </div>
+                    <div class="about-stats animate-on-scroll">
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual animate-on-scroll">
+                    <div class="about-card">
+                        <div class="about-card-content">
+                            <div class="quote-mark">"</div>
+                            <p>The goal isn't to build websites. It's to build trust — with your customers, through a digital experience that works.</p>
+                            <div class="about-signature">
+                                <span class="signature-name">Ifeanyi Ezurike</span>
+                                <span class="signature-title">Founder, Built Once</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag animate-on-scroll">How I Work</span>
+                <h2 class="section-title animate-on-scroll">A process built for <span class="text-accent">clarity</span></h2>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step animate-on-scroll">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Discovery</h3>
+                        <p class="step-desc">We start with your goals. I learn your business, your audience, and what success looks like. No assumptions — just clarity.</p>
+                    </div>
+                </div>
+                <div class="process-step animate-on-scroll">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Strategy</h3>
+                        <p class="step-desc">Before any design work, we map out the structure, user flows, and technical requirements. This is where most projects fail — I make sure yours doesn't.</p>
+                    </div>
+                </div>
+                <div class="process-step animate-on-scroll">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Design & Build</h3>
+                        <p class="step-desc">I design and develop your site with constant communication. You see progress, give feedback, and stay in control throughout.</p>
+                    </div>
+                </div>
+                <div class="process-step animate-on-scroll">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Launch & Support</h3>
+                        <p class="step-desc">Go live with confidence. I handle the technical launch and provide documentation so you're never left wondering how things work.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-content">
+                    <span class="section-tag animate-on-scroll">Get in Touch</span>
+                    <h2 class="contact-title animate-on-scroll">Ready to build something <span class="text-accent">right</span>?</h2>
+                    <p class="contact-text animate-on-scroll">Tell me about your project. I respond to every inquiry within 24 hours.</p>
+                    <div class="contact-info animate-on-scroll">
+                        <a href="mailto:hello@builtonce.org" class="contact-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                <path d="M22 6l-10 7L2 6"/>
+                            </svg>
+                            hello@builtonce.org
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper animate-on-scroll">
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="you@company.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Project Budget</label>
+                            <select id="budget" name="budget" required>
+                                <option value="" disabled selected>Select a range</option>
+                                <option value="5000-10000">$5,000 - $10,000</option>
+                                <option value="10000-20000">$10,000 - $20,000</option>
+                                <option value="20000+">$20,000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" required placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">Built<span class="logo-accent">Once</span></span>
+                    <p>Built right the first time.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#services">Services</a>
+                    <a href="#work">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Built Once. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
